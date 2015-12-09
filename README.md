@@ -1,38 +1,19 @@
-cloud-to-butt
-=============
+# T.T.A.O (Trump To Annoying Orange) Text Replacer Source Code
 
-![](logo.png)
+![](logo.jpg)
 
-Chrome extension that replaces occurrences of 'the cloud' with 'my butt'
+Chrome extension that replaces occurrences of 'trump' and 'Donald Trump' with 'Annoying Orange'
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/CloudToButt.crx?raw=true)
+## Installation
 
-Note that there are forks of this extension that simply replace 'cloud' with 'butt'.
-In my personal opinion, that approach is too broad and it's less funny as a result, but it is clearly a very
-polarizing issue in the cloud-to-butt user community.  Forks are free to do whatever they like.  But officially, _this_ extension replaces only the phrase described above. Thank you for your concern.
+Later on...
 
-Screenshot Gallery
-------------------
+## License
 
-http://www.flickr.com/groups/cloud-to-butt/
+Orange picture taken from [Wikimedia](https://commons.wikimedia.org/wiki/File:Orange_Slice.jpg)
 
-Installation
-------------
+Project forked from [panicsteve](https://github.com/panicsteve/cloud-to-butt). Check his [original license](original_license.md) ('explicit language warning').
 
-In Chrome, choose Window > Extensions.  Drag CloudToButt.crx into the page that appears.
+All commits made upon fork are under [The MIT License (MIT)](LICENSE.md) with Copyright (c) 2015, Deovandski Skibinski Junior
 
-Safari Version
---------------
-
-Can be found here: https://github.com/logancollins/cloud-to-butt-safari
-
-Firefox Version
----------------
-
-Can be found here: https://github.com/DaveRandom/cloud-to-butt-mozilla
-
-
-Opera Version
----------------
-
-Can be found here: https://github.com/DaveRandom/cloud-to-butt-opera
+All rights reserved to their respective owners.
