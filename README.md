@@ -1,6 +1,6 @@
 # Trump To Annoying Orange Text Replacer
 
-![](logo.jpg)
+![](ttao_logo.jpg)
 
 Chrome extension that replaces occurrences of **Trump** and **Donald Trump** with **Annoying Orange**.
 
