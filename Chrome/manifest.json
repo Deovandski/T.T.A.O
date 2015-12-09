@@ -1,0 +1,31 @@
+{
+	"manifest_version": 2,
+	"name": "Trump to Annoying Orange",
+	"version": "1.0",
+	"description": "Replaces Trump with Annoying Orange",
+	"permissions": [
+		"storage"
+	],
+	"background": {
+    "scripts": ["background.js"],
+    "persistent": true
+	},
+	"icons": {
+	"16": "icon16.png",
+	"48": "icon48.png",
+	"128": "icon128.png"
+	},
+	"browser_action": {
+		"default_title": "Config Trump to Annoying Orange!",
+		"default_popup": "options.html"
+	},
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
+

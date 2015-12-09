@@ -1,6 +1,7 @@
 The MIT License (MIT)
 
 Project forked from [panicsteve](https://github.com/panicsteve/cloud-to-butt). Check his [original license](ORIGINAL_LICENSE.md) (**explicit language warning**).
+All commits made upon fork are under [The MIT License (MIT)](LICENSE.md) with Copyright (c) 2015, Deovandski Skibinski Junior
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
