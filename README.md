@@ -2,7 +2,7 @@
 
 ![](logo.jpg)
 
-Chrome extension that replaces occurrences of **'trump'** and **'Donald Trump'** with **'Annoying Orange'**
+Chrome extension that replaces occurrences of **Trump** and **Donald Trump** with **Annoying Orange**.
 
 ## Installation
 
