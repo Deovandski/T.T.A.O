@@ -2,40 +2,40 @@
 chrome.storage.sync.get("canReplace", function(data) {
 	if (!chrome.runtime.error) {
 		if (data.canReplace) {
-			console.log("T.T.A.O. is active! Walking starts now...");
+			//console.log("T.T.A.O. is active! Walking starts now...");
 			walk(document.body);
 		}
 		else {
-			console.log("T.T.A.O. is idle");
+			//console.log("T.T.A.O. is idle");
 		}
 	}
 	else {
-		console.log("Something terrible happened...");
+		console.log("Something terrible happened which caused TTAO to stop working...");
 	}
 });
 
 // Most of the following code has been extracted from http://is.gd/mwZp7E
 function walk(node) {
 	var child, next;
+	if (node.tagName.toLowerCase() == 'input' || node.tagName.toLowerCase() == 'textarea'
+	    || node.classList.indexOf('ace_editor') > -1) {
+		return;
+	}
 	switch ( node.nodeType ) {
-		
 		case 1:  // Element
-		
 		case 9:  // Document
-		
 		case 11: // Document fragment
-		
 			child = node.firstChild;
 			while ( child ) {
 				next = child.nextSibling;
 				walk(child);
 				child = next;
 			}
-		break;
+			break;
 
 		case 3: // Text node
 			handleText(node);
-		break;
+			break;
 	}
 }
 function handleText(textNode) {
